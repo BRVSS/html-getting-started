@@ -2,3 +2,76 @@
 a.active {
     font-weight: bold;
 }
+
+
+body{
+    background:#2d2d2a;
+    margin-top: 100px;
+}
+
+.card{
+    background: #dbd4d3;
+    color:#000B47;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* (red, green, blue, opacity)*/
+    outline: 4px solid #000B47;
+}
+
+.card div{
+    padding: 20px;
+}
+
+h1 {
+    background: #48A9A3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    outline: 4px solid #000B47;
+}
+
+img{
+    float: left; /*makes photo stay to left*/
+    margin-right: 20px;
+    border-radius: 15px;
+    outline: 3px solid #DC6ACF;
+    box-shadow: 0 0 10px #2d2d2a;
+}
+
+h2 {
+     font-family: 'Brush Script MT', cursive;
+     color:#2d2d2a;
+     margin: 0;
+     font-size: 35px;
+}
+
+p{
+    margin: 0;
+}
+
+#title {
+    font-family: Garamond, serif;
+    color:#3943B7;
+    font-weight: bold;
+    font-size: large;
+}
+
+#num{
+color: darkslategray ;
+font-size: smaller;
+}
+
+ul{
+    margin: 0 auto;
+    padding-top: 10px;
+    font-weight: normal;
+    font-family:'Lucida Console';
+    font-size: small;
+}
+
+li{
+       margin-bottom: .35em;
+}
